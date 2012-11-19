@@ -11,10 +11,4 @@ public class Hello extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hello);
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.hello, menu);
-        return true;
-    }
 }
